@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1718470322 source:d:\iiuc\hospital_reservation\bst.cpp
+	"bst.h"
+	<stdexcept>
+
+1718470342 d:\iiuc\hospital_reservation\bst.h
+	"patients.h"
+	<iostream>
+	<vector>
+
+1718470377 d:\iiuc\hospital_reservation\patients.h
+	<string>
+
+1718470246 source:d:\iiuc\hospital_reservation\main.cpp
+	"room_reservation.h"
+	<iostream>
+	<string>
+	<vector>
+
+1718470486 d:\iiuc\hospital_reservation\room_reservation.h
+	"patients.h"
+	"bst.h"
+	<vector>
+	<unordered_set>
+
+1718470457 source:d:\iiuc\hospital_reservation\room_reservation.cpp
+	"room_reservation.h"
+	<iostream>
+
+1718470365 source:d:\iiuc\hospital_reservation\patients.cpp
+	"patients.h"
+
